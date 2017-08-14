@@ -1,5 +1,7 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
+<!--WDI4 intro at 11:03, devs start working 11:08-->
+
 # Project: The **Testable** Death Square
 
 The rebels are on board our death square, and are heading for our datbanks!  A platoon of storm troopers has been sent to stop them, but we need to know the second they go offline so we can switch to a backup.  Let's do some TDD!
@@ -23,6 +25,8 @@ The rebels are on board our death square, and are heading for our datbanks!  A p
 7. Let's actually test something now.  We're going to make a lot of changes to our Death Square Dashboard™, and we need to make sure that `findTurret` is still a working function.  Replace our `expect(true)...` expectation with `expect(typeof(component.findTurret)).toBe('function');`
 
 8. Check your tests in Chrome one more time.  Once they are all passing, we know one more thing is safe from those blasted rebels!
+
+<!--WDI4 called it at 11:33 -->
 
 ### Resources
 
