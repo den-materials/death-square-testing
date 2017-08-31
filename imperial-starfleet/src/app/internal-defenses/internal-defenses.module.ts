@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DeathSquareComponent } from './death-square.component';
+import { DeathSquareComponent } from './death-square/death-square.component';
 import { TurretComponent } from './turret/turret.component';
 import { LaserCannonComponent } from './laser-cannon/laser-cannon.component';
 import { RouterModule } from '@angular/router';
@@ -19,4 +19,4 @@ import { RouterModule } from '@angular/router';
     DeathSquareComponent
   ]
 })
-export class DeathSquareModule { }
+export class InternalDefensesModule { }

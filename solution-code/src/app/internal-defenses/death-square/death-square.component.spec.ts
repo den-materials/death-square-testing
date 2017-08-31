@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DeathSquareComponent } from './death-square.component';
 
-describe('DeathStarComponent', () => {
+describe('DeathSquareComponent', () => {
   let component: DeathSquareComponent;
   let fixture: ComponentFixture<DeathSquareComponent>;
 
