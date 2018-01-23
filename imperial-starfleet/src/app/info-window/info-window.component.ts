@@ -18,13 +18,13 @@ export class InfoWindowComponent implements OnInit {
 
   ngOnInit() {
   	this.route.params.forEach( param => {
-  		this.findTurret(param.id);
+  		this.findTurret(param.id)
+      .subscribe(response => this.dataBanks = response.json());
   	});
   }
 
   findTurret(turretNumber){
-    this.http.get('http://localhost:3000/api/turret/'+turretNumber)
-    .subscribe(response => this.dataBanks = response.json());
+    return this.http.get('http://localhost:3000/api/turret/'+turretNumber);
 	}
 
 }
